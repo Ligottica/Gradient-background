@@ -1,0 +1,48 @@
+body {
+	font-family: 'Rajdhani', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, #00f7ff , #7314cc); /* Standard syntax */
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size:  5em;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1em;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    padding: 0;
+    border: solid rgba(255, 255, 255, 0.562);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+    border-radius: 50%;
+    padding: 0;
+}
