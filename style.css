@@ -18,9 +18,19 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size:  3vw;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
 h3 {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 1em;
+    font-size: 1vw;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
